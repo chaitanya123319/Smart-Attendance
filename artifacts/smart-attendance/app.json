@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Smart Attendance",
+    "slug": "smart-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "smart-attendance",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#F5F8FC",
+      "resizeMode": "contain",
+      "image": "./assets/images/icon.png"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": ["expo-router", "expo-camera", "expo-location", "expo-image-picker"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
