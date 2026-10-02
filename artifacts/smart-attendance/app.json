@@ -19,7 +19,13 @@
     "web": {
       "favicon": "./assets/images/icon.png"
     },
-    "plugins": ["expo-router", "expo-camera", "expo-location", "expo-image-picker"],
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-location",
+      "expo-image-picker",
+      "expo-sqlite"
+    ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
